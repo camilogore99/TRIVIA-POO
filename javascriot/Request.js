@@ -6,7 +6,7 @@ export default class Request {
         const totalQuestions = document.getElementById('total-quiestion').value;
         const category = document.getElementById('categories').value;
         const difficulty = document.getElementById('difficulty').value;
-        const type = document.getElementById('type').value;
+        const type = document.getElementById('select-type').value;
         return [totalQuestions, category, difficulty, type];
     }
     static getQuestions() {
