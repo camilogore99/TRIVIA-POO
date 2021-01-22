@@ -21,3 +21,4 @@ Request.getCategory()
           .then(data => UI.printCategory(data.trivia_categories))
           //console.log(Request.getCategory)
 
+xxxxxxxxxxxxxxxxxxx
