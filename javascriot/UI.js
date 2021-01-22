@@ -27,11 +27,8 @@ export default class UI {
             });
       };
       static printAnswer(question){
-
-
-        
-
-    }
+          holllllllllllllllllllllllllllllllllllll  
+      }
      static printerror(){
         const container = document.getElementById('questions-container');
         container.innerHTML = '';
