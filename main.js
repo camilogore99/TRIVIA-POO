@@ -1,3 +1,11 @@
+//=============================================//
+//== git push de lo que hagas ====// <=paso 1
+//==== git checkout main ==//<=paso 2
+//==== git pull =====//<=paso 3
+//====git merge tu rama ===//<=paso 4
+//==== git push main ===//<=paso 5
+//====git checkout y tu rama ===//<=paso6
+
 import Request from './javascriot/Request.js'
 import UI from './javascriot/UI.js'
 let correct = [];
@@ -26,3 +34,4 @@ Request.getCategory()
           //console.log(Request.getCategory)
 
 xxxxxxxxxxxxxxxxxxx
+
