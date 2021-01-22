@@ -16,6 +16,8 @@ form.addEventListener('submit', (event) =>{
                })
 });
 
+xxxxxxxxxxxxxxxxxxxxx
+
 Request.getCategory()
           .then(response => response.json())
           .then(data => UI.printCategory(data.trivia_categories))

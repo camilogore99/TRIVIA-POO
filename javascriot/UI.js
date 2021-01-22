@@ -26,9 +26,15 @@ export default class UI {
                   categorie.innerHTML += `<option value="${category.id}">${category.name}</option>`;
             });
       };
+      //====== ESTA PARTE ES DE JULIO ========//
       static printAnswer(question){
           holllllllllllllllllllllllllllllllllllll  
       }
+
+
+
+
+      
      static printerror(){
         const container = document.getElementById('questions-container');
         container.innerHTML = '';
