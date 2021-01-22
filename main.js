@@ -23,15 +23,8 @@ form.addEventListener('submit', (event) =>{
             }
                })
 });
-
-xxxxxxxxxxxxxxxxxxxxx
-
-
-xxxxxxxxxxxxxxxxxxxxxxx
 Request.getCategory()
           .then(response => response.json())
           .then(data => UI.printCategory(data.trivia_categories))
           //console.log(Request.getCategory)
-
-xxxxxxxxxxxxxxxxxxx
 

@@ -12,53 +12,55 @@
 </head>
 
 <body>
-      <div class="container mt-3">
-            <div class="row justify-content-center">
-                  <div class="col-md-6">
-                        <div class="card">
-                              <div class="card-body">
+      <div class="container  mt-3 hola">
+            <div class="row">
+                  <div class="col-md-4">
+                        <div class="card ">
+                              <div class="card-body style">
                                     <h1>TRIVIA</h1>
-                                    <form action="/question" id="form-question">
-                                          <div class="form-group">
-                                                <label for="total-quiestion" class="form-label">Total Preguntas</label>
-                                                <select type="email" class="form-control" id="total-quiestion">
-                                                      <option value="5">5</option>
-                                                      <option value="10">10</option>
-                                                      <option value="20">20</option>
-                                                      <option value="30">30</option>
-                                                      <option value="40">40</option>
-                                                      <option value="50">50</option>
-                                                </select>
-                                          </div>
-                                          <div class="form-group">
-                                                <label for="categories" class="form-label">Categoria</label>
-                                                <select class="form-control" id="categories"></select>
-                                          </div>
-                                          <div class="form-group">
-                                                <label for="dificulty" class="form-label">Dificultad</label>
-                                                <select class="form-control" id="difficulty">
-                                                      <option value="easy">easy</option>
-                                                      <option value="medium">medium</option>
-                                                      <option value="hard">hard</option>
-                                                </select>
-                                          </div>
-                                          <div class="form-group">
-                                                <label for="type" class="form-label">Tipo</label>
-                                                <select class="form-control" id="type">
-                                                      <option value="multiple">Multiple</option>
-                                                      <option value="boolean">true/false</option>
-                                                </select>
-                                          </div>
-                                          <button type="submit" class="mt-2 btn btn-primary btn-block">
-                                                Obtener Preguntas
-                                          </button>
-                                    </form>
+                                    <form action="/question" id="form-question" ">
+                                          <div class=" form-group">
+                                          <label for="total-quiestion" class="form-label">Total Preguntas</label>
+                                          <select type="email" class="form-control" id="total-quiestion">
+                                                <option value="5">5</option>
+                                                <option value="10">10</option>
+                                                <option value="20">20</option>
+                                                <option value="30">30</option>
+                                                <option value="40">40</option>
+                                                <option value="50">50</option>
+                                          </select>
                               </div>
+                              <div class="form-group">
+                                    <label for="categories" class="form-label">Categoria</label>
+                                    <select class="form-control" id="categories"></select>
+                              </div>
+                              <div class="form-group">
+                                    <label for="dificulty" class="form-label">Dificultad</label>
+                                    <select class="form-control" id="difficulty">
+                                          <option value="easy">easy</option>
+                                          <option value="medium">medium</option>
+                                          <option value="hard">hard</option>
+                                    </select>
+                              </div>
+                              <div class="form-group">
+                                    <label for="type" class="form-label">Tipo</label>
+                                    <select class="form-control" id="select-type">
+                                          <option value="multiple">Multiple</option>
+                                          <option value="boolean">true/false</option>
+                                    </select>
+                              </div>
+                              <button type="submit" class="mt-2 btn btn-warning  btn-block">
+                                    Obtener Preguntas
+                              </button>
+                              </form>
                         </div>
                   </div>
             </div>
-            <div class="col-md-10" id="questions-container"></div>
+      </div>
+      <div class="container-response">
+            <div class="col-md-12" id="questions-container"></div>
             <div onsubmit="event.preventDefault()" id="button-question"></div>
+      </div>
       </div>
       <script type="module" src="./main.js"></script>
       <script type="module" src="./javascriot/UI.js"></script>

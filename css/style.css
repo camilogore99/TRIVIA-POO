@@ -1,3 +1,25 @@
 body {
-  background-color: black;
+  position: relative;
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/03/Wallpaper-HD-pikachu-free-download-620x349.jpg);
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+}
+.hola {
+  position: sticky;
+  left: 0;
+}
+.center22 {
+  position: absolute;
+  left: 32%;
+  margin-bottom: 50px;
+}
+.style {
+  background-color: skyblue;
+}
+.container-response {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
 }
